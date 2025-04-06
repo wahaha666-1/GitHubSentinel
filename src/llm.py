@@ -6,7 +6,7 @@ from logger import LOG  # 导入日志模块
 class LLM:
     def __init__(self, config):
         """
-        初始化 LLM 类，根据配置选择使用的模型（OpenAI 或 Ollama）。
+        初始化: LLM 类，根据配置选择使用的模型（OpenAI 或 Ollama）。
 
         :param config: 配置对象，包含所有的模型配置参数。
         """
